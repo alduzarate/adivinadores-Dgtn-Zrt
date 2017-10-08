@@ -1,5 +1,5 @@
 {
-    "name": "poli/probando_travisci",
+    "name": "alduzarate/adivinadores-Dgtn-Zrt",
     "require": {
         "phpunit/phpunit": "^5.5"
     },
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ejemplo\\": "src"
+            "adivinador\\": "src"
         }
     }
 }
