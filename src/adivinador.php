@@ -8,8 +8,7 @@ public function sugerirNumeroSecreto();
   public function elNumeroEraMenor();
   public function elNumeroEraMayor();
 }
-class
-Principiante implements Adivinador
+class Principiante implements Adivinador
  {
   protected $minimo = 1;
   protected $maximo = 1000;
