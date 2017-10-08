@@ -13,10 +13,10 @@ class Principiante implements Adivinador
   protected $minimo = 1;
   protected $maximo = 1000;
   protected $sugerencia = 0;
-  public function __construct($minimo, $maximo) {
+ /* public function __construct($minimo, $maximo) {
     $this→minimo = $minimo;
     $this→maximo = $maximo;
-}
+}*/
   public function sugerirNumeroSecreto()
 {
     $aleatorio = (int)rand($this->minimo, $this->maximo);
