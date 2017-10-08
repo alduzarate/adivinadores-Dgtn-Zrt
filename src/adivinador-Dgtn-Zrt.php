@@ -1,4 +1,7 @@
 <?php
+namespace adivinador;
+use PHPUnit\Framework\TestCase;
+
 interface Adivinador
  {
 public function sugerirNumeroSecreto();
@@ -30,7 +33,7 @@ Principiante implements Adivinador
     $this->maximo = $this->sugerencia;
   }
 }
-class Profesionar extends Principiante {
+class Profesional extends Principiante {
 public function sugerirNumeroSecreto() {
 $this->sugerencia = (int)(($this→minimo + $this→maximo) / 2);
 return $this->sugerencia;
@@ -86,7 +89,7 @@ else {
 }
 }
 
-$juego = new Juego;
+/*$juego = new Juego;
 $gano1 = $gano2 = 0;
 for ($i = 1; $i < 15; $i++) {
 $jugador1 = new Principiante;
@@ -108,4 +111,4 @@ echo 'Gano el torneo el jugador 1';
 }
 else {
 echo 'Gano el torneo el jugador 2';
-}
+}*/
