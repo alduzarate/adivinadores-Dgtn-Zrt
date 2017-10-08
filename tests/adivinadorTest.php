@@ -1,14 +1,13 @@
 <?php
 
 
-namespace Ejemplo;
+namespace adivinador;
 
 use PHPUnit\Framework\TestCase;
 
-class TrianguloTest extends TestCase {
+class adivinadorTest extends TestCase {
 
-
-  public function testArea() {
+  public function testNro() {
     $jugador1 = new Principiante;
     $this->assertGreaterThan($jugador1->sugerirNumeroSecreto(), 0)&&$this->assertLessThan($jugador1->sugerirNumeroSecreto(), 1000);
 
